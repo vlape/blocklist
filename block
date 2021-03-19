@@ -7,4 +7,3 @@ adobe.io
 soom.la
 adsettings.google.com
 uk_b2c_macworld.co.uk
-^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]
