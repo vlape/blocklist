@@ -6,8 +6,7 @@
       "action": "allow",
       "process": "/Applications/iTerm2.app/Contents/MacOS/iTerm2",
       "remote": "any",
-      "direction": "outgoing",
-      "ports": "22,23,53,80,443,8000,8089"      
+      "direction": "outgoing"     
     }
   ]
 }
