@@ -4,10 +4,14 @@
   "rules": [
     {
       "action": "allow",
+      "direction": "outgoing",
+      "priority": "regular",
+      "process": "\/Applications\/iTerm.app",
+      "via": /sbin/ping",
       "owner" : "me",
       "ports" : "any",
-      "process": "\/Applications\/iTerm.app via ping",
-      "remote": "any"
+      "protocol": "any",
+      "destination": "any"
     }
   ]
 }
