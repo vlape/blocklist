@@ -1,1 +1,13 @@
-
+{
+  "description" : "",
+  "name" : "1",
+  "rules" : [
+    {
+      "action" : "allow",
+      "owner" : "me",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "remote" : "any",
+      "via" : "\/sbin\/ping"
+    }
+  ]
+}
