@@ -4,9 +4,10 @@
   "rules": [
     {
       "action": "allow",
-      "process": "/Applications/iTerm2.app/Contents/MacOS/iTerm2",
-      "remote": "any",
-      "direction": "outgoing"     
+      "owner" : "me",
+      "ports" : "21, 22, 53, 80, 443, 8000, 8089",
+      "process": "\/Applications\/iTerm2.app\/Contents\/MacOS\/iTerm2",
+      "remote": "any"
     }
   ]
 }
