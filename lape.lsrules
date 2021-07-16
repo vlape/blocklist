@@ -7,7 +7,6 @@
       "direction": "outgoing",
       "priority": "regular",
       "process": "/Applications/iTerm.app",
-      "via": /sbin/ping",
       "owner": "me",
       "destination": "any",
       "ports": "any",
