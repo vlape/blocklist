@@ -6,12 +6,12 @@
       "action": "allow",
       "direction": "outgoing",
       "priority": "regular",
-      "process": "\/Applications\/iTerm.app",
+      "process": "/Applications/iTerm.app",
       "via": /sbin/ping",
-      "owner" : "me",
-      "ports" : "any",
-      "protocol": "any",
-      "destination": "any"
+      "owner": "me",
+      "destination": "any",
+      "ports": "any",
+      "protocol": "any"
     }
   ]
 }
