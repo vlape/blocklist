@@ -7,7 +7,7 @@
       "direction": "outgoing",
       "priority": "regular",
       "process": "/Applications/iTerm.app",
-      "owner": "me",
+      "owner": "me"
     }
   ]
 }
