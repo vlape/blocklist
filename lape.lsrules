@@ -1,5 +1,5 @@
 {
-  "name": "iTerm Traffic- Ping",
+  "name": "iTerm Traffic Ping",
   "description": "Allow iTerm outbound traffic",
   "rules": [
     {
@@ -8,9 +8,7 @@
       "priority": "regular",
       "process": "/Applications/iTerm.app",
       "owner": "me",
-      "destination": "any",
-      "ports": "any",
-      "protocol": "any"
+      "remote-hosts": "sw-update.obdev.at"
     }
   ]
 }
