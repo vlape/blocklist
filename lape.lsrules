@@ -6,7 +6,7 @@
       "action": "allow",
       "owner" : "me",
       "ports" : "any",
-      "process": "\/Applications\/iTerm.app via /sbin/ping",
+      "process": "\/Applications\/iTerm.app via ping",
       "remote": "any"
     }
   ]
