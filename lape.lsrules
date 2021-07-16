@@ -1,13 +1,1 @@
-{
-  "name": "iTerm Traffic Ping",
-  "description": "Allow iTerm outbound traffic",
-  "rules": [
-    {
-      "action": "allow",
-      "direction": "outgoing",
-      "priority": "regular",
-      "process": "/Applications/iTerm.app",
-      "owner": "me"
-    }
-  ]
-}
+
