@@ -5,7 +5,7 @@
     {
       "action": "allow",
       "owner" : "me",
-      "ports" : "21, 22, 53, 80, 443, 8000, 8089",
+      "ports" : "any",
       "process": "\/Applications\/iTerm2.app\/Contents\/MacOS\/iTerm2",
       "remote": "any"
     }
