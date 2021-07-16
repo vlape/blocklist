@@ -7,7 +7,7 @@
       "direction": "outgoing",
       "priority": "regular",
       "process": "/Applications/iTerm.app",
-      "via":, "/sbin/ping"
+      "via": "/sbin/ping",
       "owner": "me",
       "remote": "any"
     }
