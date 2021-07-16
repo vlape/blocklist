@@ -6,7 +6,7 @@
       "action": "allow",
       "owner" : "me",
       "ports" : "any",
-      "process": "\/Applications\/iTerm2.app",
+      "process": "\/Applications\/iTerm.app",
       "remote": "any"
     }
   ]
