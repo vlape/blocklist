@@ -7,8 +7,9 @@
       "direction": "outgoing",
       "priority": "regular",
       "process": "/Applications/iTerm.app",
+      "via":, "/sbin/ping"
       "owner": "me",
-      "remote-hosts": "sw-update.obdev.at"
+      "remote": "any"
     }
   ]
 }
