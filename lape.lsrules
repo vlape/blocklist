@@ -29,12 +29,6 @@
       "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
       "remote" : "any",
       "via" : "\/usr\/bin\/ssh"
-    },
-    {
-      "action" : "allow",
-      "owner" : "me",
-      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
-      "remote" : "any"
     }
   ]
 }
