@@ -8,7 +8,6 @@
       "priority": "regular",
       "process": "/Applications/iTerm.app",
       "owner": "me",
-      "remote": "any"
     }
   ]
 }
