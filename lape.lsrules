@@ -1,6 +1,6 @@
 {
-  "description" : "",
-  "name" : "1",
+  "description" : "iTerm Ping",
+  "name" : "Alloe iTERM ping",
   "rules" : [
     {
       "action" : "allow",
@@ -8,6 +8,32 @@
       "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
       "remote" : "any",
       "via" : "\/sbin\/ping"
+    }
+  ]
+}
+{
+  "description" : "iTerm Dig",
+  "name" : "Alloe iTERM dig",
+  "rules" : [
+    {
+      "action" : "allow",
+      "owner" : "me",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "remote" : "any",
+      "via" : "\/usr\/bin\/dig"
+    }
+  ]
+}
+{
+  "description" : "iTerm Whois",
+  "name" : "Alloe iTERM whois",
+  "rules" : [
+    {
+      "action" : "allow",
+      "owner" : "me",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "remote" : "any",
+      "via" : "\/usr\/bin\/whois"
     }
   ]
 }
