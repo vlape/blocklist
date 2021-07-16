@@ -10,7 +10,7 @@
       "via" : "\/sbin\/ping"
     }
   ]
-}
+},
 {
   "description" : "iTerm Dig",
   "name" : "Alloe iTERM dig",
@@ -23,7 +23,7 @@
       "via" : "\/usr\/bin\/dig"
     }
   ]
-}
+},
 {
   "description" : "iTerm Whois",
   "name" : "Alloe iTERM whois",
