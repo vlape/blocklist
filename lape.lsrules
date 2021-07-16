@@ -31,37 +31,10 @@
       "via" : "\/usr\/bin\/ssh"
     },
     {
-      "description" : "iTerm Utility",
-      "name" : "Allow iTERM",
-      "rules" : [
-        {
-          "action" : "allow",
-          "owner" : "me",
-          "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
-          "remote" : "any",
-          "via" : "\/sbin\/ping"
-        },
-        {
-          "action" : "allow",
-          "owner" : "me",
-          "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
-          "remote" : "any",
-          "via" : "\/usr\/bin\/dig"
-        },
-        {
-          "action" : "allow",
-          "owner" : "me",
-          "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
-          "remote" : "any",
-          "via" : "\/usr\/bin\/whois"
-        },
-        {
-          "action" : "allow",
-          "owner" : "me",
-          "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
-          "remote" : "any",
-        }
-      ]
+      "action" : "allow",
+      "owner" : "me",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "remote" : "any"
     }
   ]
 }
