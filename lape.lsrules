@@ -34,7 +34,7 @@
       "action" : "allow",
       "owner" : "me",
       "process" : "\/Applications\/Safari.app",
-      "direction" : "outbound",
+      "direction" : "outgoing",
       "ports" : "80, 443, 8000",
       "protocol" : "tcp",
       "remote" : "any"
