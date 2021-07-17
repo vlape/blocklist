@@ -1,6 +1,6 @@
 {
-  "description" : "iTerm Utility",
-  "name" : "Allow iTERM",
+  "description" : "LRG Ruleset",
+  "name" : "LRG Ruleset",
   "rules" : [
     {
       "action" : "allow",
@@ -29,6 +29,15 @@
       "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
       "remote" : "any",
       "via" : "\/usr\/bin\/ssh"
+    },
+    {
+      "action" : "allow",
+      "owner" : "me",
+      "process" : "\/Applications\/Safari.app",
+      "direction" : "outbound",
+      "ports" : "80, 443, 8000",
+      "protocol" : "tcp",
+      "remote" : "any"
     }
   ]
 }
